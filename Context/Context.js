@@ -37,7 +37,7 @@ export function PetroContextProvider({ children }) {
 
   const [view, setView] = useState('Analysis')
 
-  const [openMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState(true);
 
 
   const toggleMenu = () =>{
