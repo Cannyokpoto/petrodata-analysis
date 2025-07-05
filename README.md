@@ -27,9 +27,9 @@ Built with Next.js, the dashboard displays weekly price trends, performance metr
 //my vercel link
 
 
-# Core Technologies & Packages
+# Technologies & Packages Used
 
-CORE STACK:
+FRAMEWORK:
 Next.js
 
 
@@ -47,5 +47,5 @@ PapaParse
 File Saver
 
 
-ICONS
+ICONS:
 React Icons
