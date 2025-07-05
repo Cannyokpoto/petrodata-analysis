@@ -29,7 +29,7 @@ Built with Next.js, the dashboard displays weekly price trends, performance metr
 
 # Core Technologies & Packages
 
-CORE STACK
+## CORE STACK
 Next.js
 React
 
