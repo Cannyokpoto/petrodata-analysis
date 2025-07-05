@@ -1,4 +1,4 @@
-PETROLEUM PRICE ANALYSIS DASHBOARD
+PETROLEUM PRODUCTS PRICE ANALYSIS DASHBOARD
 
 This dashboard provides a dynamic analysis of the retail prices of petroleum products across Nigeria’s 36 states between November 2024 and January 2025.
 
