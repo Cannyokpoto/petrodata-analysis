@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 export const metadata = {
   title: "Analysis",
   description:
-    "Detailed analysis of the demand and prices of petroleum products",
+    "Detailed analysis of the demand and retail prices of petroleum products",
 };
 
 export default function RootLayout({ children }) {
