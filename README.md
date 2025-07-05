@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+PETROLEUM PRICE ANALYSIS DASHBOARD
 
-## Getting Started
+This dashboard provides a dynamic analysis of the retail prices of petroleum products across Nigeria’s 36 states between November 2024 and January 2025.
 
-First, run the development server:
+Built with Next.js, the dashboard displays weekly price trends, performance metrics, interactive filters, and downloadable reports for each product and state.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Features
+ Date Range: November 2024 – January 2025
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+ Product Analysis: PMS, AGO, DPK, LPG
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Geographic Filters: View by state or all states
 
-## Learn More
+ Interactive Charts: Line graphs powered by Chart.js
 
-To learn more about Next.js, take a look at the following resources:
+ Period Filters: 1 day, 1 week, 1 month, 3/6 months, 1 year
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ Search & Filter: Real-time product search
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ CSV Download: Download product trend as .csv
 
-## Deploy on Vercel
+ Responsive Design: Optimized for desktops and tablets. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Live Preview
+//my vercel link
+
+
+# Core Technologies & Packages
+
+CORE STACK
+Next.js
+React
+
+
+CHARTS & VISUALIZATION
+Chart.js
+react-chartjs-2
+
+ STYLING
+Tailwind CSS
+
+
+DATA HANDLING
+PapaParse
+File Saver
+
+
+ICONS
+React Icons

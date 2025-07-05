@@ -1,0 +1,37 @@
+import { getContext } from '@/Context/Context';
+import React from 'react';
+import { IoCloseOutline } from "react-icons/io5";
+import SummaryItem from '../SummaryItem/SummaryItem';
+
+
+function SummaryModal() {
+
+    const {setSummary} = getContext();
+    
+  return (
+    <div className='absolute top-0 left-0 z-10 flex items-center justify-center cursor-pointer min-h-100vh w-100vw bg-overlay text-13px'
+        onClick={()=>setSummary(false)}
+    >
+        
+      <div className='flex flex-col gap-3 px-2 pt-2 border border-darkBg rounded-xl h-70vh w-50vw bg-modalBg'>
+        
+        <div className='flex flex-col'>
+            <IoCloseOutline className='self-end cursor-pointer text-25px' onClick={()=>setSummary(false)} />
+            <h4 className='text-white'>Daily summary</h4>
+            <p className='text-textGray'>Here's a quick summary of the PMS (Premium Motor Spirit - Petrol) market in Nigeria, breaking down demand, supply, and regional trends:</p>
+        </div>
+
+        <div className='flex flex-col gap-2 pl-2 overflow-y-auto h-80'>
+            {
+                 Array(5).fill().map((_, i) =>
+                    <SummaryItem key={i} />
+                )
+            }
+        </div>
+        
+      </div>
+    </div>
+  )
+}
+
+export default SummaryModal
