@@ -21,12 +21,13 @@ function SideBar() {
 
   
   return (
-    <div className={`relative flex flex-col ${openMenu ? 'w-20 pl-2' : 'w-50px'} gap-12 pt-2 h-auto dark:bg-deepBlack dark:text-textWhite border-r border-borderColor`}>
+    <div className={`relative flex flex-col ${openMenu ? 'w-20 lg:pl-2 md:pl-0' : 'w-50px'} lg:gap-12 pt-2 h-auto dark:bg-deepBlack dark:text-textWhite border-r border-borderColor md:text-11px md:gap-8 lg:text-15px`}>
       
-      <div className={`flex items-center ${openMenu ? '' : 'justify-center'} gap-2 w-100`}>
-        <Image src={images.flame} alt="logo" className="w-auto h-40px" />
+      
+      <div className={`flex items-center ${openMenu ? 'md:justify-center lg:justify-start' : 'justify-center'} lg:gap-2 w-100 md:gap-0.5`}>
+        <Image src={images.flame} alt="logo" className="w-auto lg:h-40px md:h-20px" />
         
-        {openMenu && <Image src={images.logo} alt="logo" className="w-auto h-20px" />}
+        {openMenu && <Image src={images.logo} alt="logo" className="w-auto lg:h-20px md:h-10px" />}
       </div>
 
 
@@ -39,61 +40,61 @@ function SideBar() {
       <div className="flex flex-col items-center h-auto gap-1 w-100">
         
         <div
-          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Dashboard' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'}`}
+          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Dashboard' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'} md:px-1 lg:px-0`}
           onClick={() => {
             setView("Dashboard");
           }}
         >
-          <MdOutlineDashboard className="text-20px" /> {openMenu ? 'Dashboard' : ''}
+          <MdOutlineDashboard className="lg:text-20px md:text-15px" /> {openMenu ? 'Dashboard' : ''}
         </div>
 
 
         <div
-          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Analysis' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'}`}
+          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Analysis' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'} md:px-1 lg:px-0`}
           onClick={() => {
             setView("Analysis");
           }}
         >
-          <FiBarChart2 className="text-20px" /> {openMenu ? 'Analysis' : ''}
+          <FiBarChart2 className="lg:text-20px md:text-15px" /> {openMenu ? 'Analysis' : ''}
         </div>
 
 
         <div
-          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'News & Report' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'}`}
+          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'News & Report' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'} md:px-1 lg:px-0`}
           onClick={() => {
             setView("News & Report");
           }}
         >
-          <IoIosBook className="text-20px" /> {openMenu ? 'News & Report' : ''}
+          <IoIosBook className="lg:text-20px md:text-15px" /> {openMenu ? 'News & Report' : ''}
         </div>
 
 
          <div
-          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Exclusive Report' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'}`}
+          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Exclusive Report' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'} md:px-1 lg:px-0`}
           onClick={() => {
             setView("Exclusive Report");
           }}
         >
-          <LuSparkle className="text-20px" /> {openMenu ? 'Exclusive Report' : ''}
+          <LuSparkle className="lg:text-20px md:text-15px" /> {openMenu ? 'Exclusive Report' : ''}
         </div>
 
 
         <div
-          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Watchlist' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'}`}
+          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Watchlist' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'} md:px-1 lg:px-0`}
           onClick={() => {
             setView("Watchlist");
           }}
         >
-          <CiBookmarkMinus className="text-20px" />  {openMenu ? 'Watchlist' : ''}
+          <CiBookmarkMinus className="lg:text-20px md:text-15px" />  {openMenu ? 'Watchlist' : ''}
         </div>
 
         <div
-          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Settings' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'}`}
+          className={`flex items-center gap-1 py-0.5 w-100 cursor-pointer hover:text-deepGreen  ${view === 'Settings' ? "border-r-2 border-deepGreen text-deepGreen" : ""} ${openMenu ? '' : 'justify-center'} md:px-1 lg:px-0`}
           onClick={() => {
             setView("Settings");
           }}
         >
-          <CiSettings className="text-20px" /> {openMenu ? 'Settings' : ''}
+          <CiSettings className="lg:text-20px md:text-15px" /> {openMenu ? 'Settings' : ''}
         </div>
 
         
