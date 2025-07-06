@@ -29,13 +29,12 @@ FRAMEWORK:
 Next.js
 
 
+STYLING:
+Tailwind CSS
 
 CHARTS & VISUALIZATION: 
 Chart.js
 react-chartjs-2
-
- STYLING:
-Tailwind CSS
 
 
 DATA HANDLING:
@@ -45,6 +44,9 @@ File Saver
 
 ICONS:
 React Icons
+
+# Note
+The mock data in this project carries record of data between November 30th, 2024 to 3rd January 2025. Therefore some filter buttons (1D, 1W, 3M) will not display any result as there is no record for the past 24hrs, 1 week and 3 months.
 
 # Live Preview
 https://petrodata-analysis.vercel.app
