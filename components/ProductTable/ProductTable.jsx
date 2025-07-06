@@ -8,7 +8,7 @@ export default function ProductTable({ data }) {
     <div className="overflow-x-auto text-15px">
       <h2 className="mb-2 text-black dark:text-textGray">Report - Week 31, 2024</h2>
       
-      <table className="w-full pb-2 overflow-hidden text-sm text-black border dark:text-white dark:bg-deepBlack dark:rounded-xl dark:border-none border-iconBg">
+      <table className="w-full pb-2 overflow-hidden text-black border lg:text-15px md:text-10px dark:text-white dark:bg-deepBlack dark:rounded-xl dark:border-none border-iconBg">
         <thead className="dark:text-textGray">
           <tr className="border-b border-iconBg">
             <th className="py-1 pl-2 text-left dark:font-normal">Product retail price</th>

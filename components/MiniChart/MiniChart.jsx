@@ -13,7 +13,7 @@ ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement);
 
 function MiniChart({ data, color }) {
   return (
-    <div className="w-[100px] h-[40px]">
+    <div className="lg:w-100px lg:h-40px md:w-50px md:h-20px">
       <Line
         data={{
           labels: data.map((_, i) => i),

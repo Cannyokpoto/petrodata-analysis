@@ -215,12 +215,12 @@ if (loading) return <Spinner />;
     <div className="flex flex-col h-auto gap-4 w-100">
 
       
-      <div className="flex flex-row justify-between h-300px w-100">
+      <div className="flex justify-between md:flex-col lg:flex-row lg:h-300px w-100 md:h-auto md:gap-4 lg:gap-0">
         <PriceCardGroup currentPrices={currentPrices} performance={performance} />
 
         
 
-        <div className="flex flex-col gap-1 pb-2 border h-100 w-50 dark:bg-deepBlack rounded-xl border-deepBlack">
+        <div className="flex flex-col gap-1 pb-2 border h-100 lg:w-50 md:w-100 dark:bg-deepBlack rounded-xl border-deepBlack">
             <ProductSelector
             selectedProduct={selectedProduct}
             onChange={handleProductChange}

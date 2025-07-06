@@ -16,7 +16,7 @@ function AnalysisBar() {
     const {analysis, setAnalysis} = getContext();
 
   return (
-    <div className='flex items-center gap-2 border-t border-iconBg w-100 lg:text-15px md:text-10px'>
+    <div className='flex items-center border-t md:gap-1 lg:gap-2 border-iconBg w-100 lg:text-15px md:text-10px'>
         
       <div className={`relative bottom-0.2 flex items-center gap-0.5 cursor-pointer ${analysis==='retail' ? 'border-t-2 border-deepGreen text-deepGreen' : ''} py-1`}
       onClick={()=>setAnalysis('retail')}

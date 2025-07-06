@@ -12,7 +12,7 @@ function AdminArea() {
   
 
   return (
-    <div className={`flex-1 h-auto py-3 dark:bg-darkBg dark:text-textWhite ${openMenu ? 'px-3' : 'px-5'} bg-white flex flex-col gap-4 h-auto`}>
+    <div className={`flex-1 h-auto py-3 dark:bg-darkBg dark:text-textWhite ${openMenu ? 'lg:px-3 md:px-2' : 'lg:px-5 md:px-2'} bg-white flex flex-col gap-4 h-auto`}>
       <Header />
       {view === 'Analysis' && <Analysis />}
 

@@ -13,7 +13,7 @@ function SummaryModal() {
         onClick={()=>setSummary(false)}
     >
         
-      <div className='flex flex-col gap-3 px-2 pt-2 bg-white border border-darkBg rounded-xl h-70vh w-50vw dark:bg-modalBg'>
+      <div className='flex flex-col gap-3 px-2 pt-2 bg-white border border-darkBg rounded-xl h-70vh lg:w-50vw dark:bg-modalBg md:w-80vw'>
         
         <div className='flex flex-col'>
             <IoCloseOutline className='self-end cursor-pointer text-25px' onClick={()=>setSummary(false)} />
