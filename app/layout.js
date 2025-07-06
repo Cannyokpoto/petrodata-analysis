@@ -1,6 +1,8 @@
 import "@/styles/globals.css";
 import { Providers } from "./providers";
 
+
+//metada to enhance SEO
 export const metadata = {
   title: "Petroleum Price Analysis Dashboard",
   description: "Explore weekly trends and performance of PMS, AGO, DPK, and LPG across Nigeria from Nov 2024 to Jan 2025.",

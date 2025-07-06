@@ -26,6 +26,13 @@ Built with Next.js, the dashboard displays weekly price trends, performance metr
 # Live Preview
 https://petrodata-analysis.vercel.app
 
+![Dashboard Preview](public/preview.png)
+
+<p align="center">
+  <img src="public/preview.png" width="800" alt="Dashboard Preview" />
+</p>
+
+
 
 # Technologies & Packages Used
 

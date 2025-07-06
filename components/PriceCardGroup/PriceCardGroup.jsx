@@ -38,7 +38,7 @@
           <div className="font-bold dark:text-white dark:font-normal">{key} <span className="font-normal dark:text-textGray">{fullMeaning()}</span></div>
           
           
-          <div className="flex items-center justify-between w-40 gap-1">
+          <div className="flex items-center justify-between gap-1 w-45">
             <div className="flex justify-end w-40">&#8358;{value}</div>
           
             <div
