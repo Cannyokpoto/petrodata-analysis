@@ -23,17 +23,6 @@ Built with Next.js, the dashboard displays weekly price trends, performance metr
  Responsive Design: Optimized for desktops and tablets. 
 
 
-# Live Preview
-https://petrodata-analysis.vercel.app
-
-![Dashboard Preview](public/preview.png)
-
-<!-- <p align="center">
-  <img src="public/preview.png" width="800" alt="Dashboard Preview" />
-</p> -->
-
-
-
 # Technologies & Packages Used
 
 FRAMEWORK:
@@ -56,3 +45,8 @@ File Saver
 
 ICONS:
 React Icons
+
+# Live Preview
+https://petrodata-analysis.vercel.app
+
+![Dashboard Preview](public/preview.png)
