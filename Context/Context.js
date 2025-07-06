@@ -11,13 +11,24 @@ export function PetroContextProvider({ children }) {
 
   const [theme, setTheme] = useState('dark');
 
+  // useEffect(() => {
+  //   const saved = localStorage.getItem('theme');
+  //   if (saved) {
+  //     setTheme(saved);
+  //     document.documentElement.classList.toggle('dark', saved === 'dark');
+  //   }
+  // }, []);
+
   useEffect(() => {
-    const saved = localStorage.getItem('theme');
-    if (saved) {
-      setTheme(saved);
-      document.documentElement.classList.toggle('dark', saved === 'dark');
-    }
+  const saved = localStorage.getItem('theme');
+  const systemDefault = 'dark';
+
+  const appliedTheme = saved || systemDefault;
+  setTheme(appliedTheme);
+
+    document.documentElement.classList.toggle('dark', appliedTheme === 'dark');
   }, []);
+
 
 
   const darkTheme = () => {
