@@ -28,9 +28,9 @@ https://petrodata-analysis.vercel.app
 
 ![Dashboard Preview](public/preview.png)
 
-<p align="center">
+<!-- <p align="center">
   <img src="public/preview.png" width="800" alt="Dashboard Preview" />
-</p>
+</p> -->
 
 
 
