@@ -7,6 +7,7 @@ import AnalysisContainer from '../AnalysisContainer/AnalysisContainer'
 
 function Analysis() {
 
+  //from context
   const {analysis} = getContext();
 
   return (

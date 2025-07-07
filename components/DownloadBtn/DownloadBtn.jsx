@@ -6,6 +6,7 @@ import Papa from "papaparse";
 
 function DownloadBtn({ data, dates, filename = "product.csv" }) {
   
+  //to handle data download
     const handleDownload = () => {
     if (!data || data.length === 0 || !dates || dates.length !== data.length) return;
 

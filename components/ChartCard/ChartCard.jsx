@@ -23,6 +23,7 @@ ChartJS.register(
 
 
  function ChartCard({ data }) {
+  
   if (!data?.labels || !data?.datasets) return null;
 
 

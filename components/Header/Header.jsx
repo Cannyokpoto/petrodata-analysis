@@ -9,6 +9,8 @@ import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 
 
 function Header() {
+
+  //from context
   const { view, getTodayDate } = getContext();
 
   return (

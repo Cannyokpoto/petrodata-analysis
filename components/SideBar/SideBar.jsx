@@ -17,6 +17,8 @@ import { CiSettings } from "react-icons/ci";
 
 
 function SideBar() {
+
+  //from context
   const { view, setView, toggleMenu, openMenu } = getContext();
 
   

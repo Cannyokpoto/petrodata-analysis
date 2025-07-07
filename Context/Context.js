@@ -122,5 +122,5 @@ const [summary, setSummary] = useState(false);
 }
 
 
-
+//a function that makes all the context values to be accessible globally
 export const getContext = () => useContext(PetroContext);

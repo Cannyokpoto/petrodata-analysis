@@ -9,6 +9,7 @@ import { IoSunnyOutline } from "react-icons/io5";
 
 function ThemeSwitch() {
 
+  //from context
     const { darkTheme, lightTheme } = getContext();
 
   return (

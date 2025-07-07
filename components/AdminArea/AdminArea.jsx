@@ -8,6 +8,7 @@ import Dashboard from '../DashBoard/DashBoard';
 
 function AdminArea() {
   
+  //from context
   const { openMenu, view } = getContext();
   
 

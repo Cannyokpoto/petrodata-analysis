@@ -13,6 +13,7 @@ import { getContext } from '@/Context/Context';
 
 function AnalysisBar() {
 
+  //from context
     const {analysis, setAnalysis} = getContext();
 
   return (
